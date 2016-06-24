@@ -1,0 +1,118 @@
+<acceptance-test-run title="Demo in English version" name="Demo in English version" description="" steps="30" successful="3" failures="0" errors="1" skipped="26" ignored="0" pending="0" annotated-result="ERROR" result="ERROR" duration="35701" timestamp="2016-06-23T19:54:27.135-07:00">
+  <user-story id="window" name="Window" path="src/main/java/featurefiles/Browser.feature"/>
+  <tags>
+    <tag name="Window" type="feature"/>
+    <tag name="browser" type="tag"/>
+  </tags>
+  <test-step result="SUCCESS" duration="7554">
+    <description>Given the home page is visited</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="4978">
+    <description>And the page &quot;http://live.guru99.com/&quot; is visited one</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="22769">
+    <description>And the page is refreshed</description>
+  </test-step>
+  <test-step result="ERROR" duration="34">
+    <description>And maximize the window</description>
+    <error>org.openqa.selenium.UnsupportedCommandException: Unknown command received
+Command duration or timeout: 9 milliseconds
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 17:00:58&apos;
+System info: host: &apos;DESKTOP-274KN17&apos;, ip: &apos;192.168.112.128&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_65&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities [{acceptSslCerts=true, browserVersion=20.10240.16384.0, platformVersion=10, browserName=MicrosoftEdge, takesScreenshot=true, pageLoadStrategy=normal, takesElementScreenshot=true, platformName=windows, platform=ANY}]
+Session ID: 0181AEDA-1566-4A0A-A386-72FF763F04BD
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 17:00:58&apos;
+System info: host: &apos;DESKTOP-274KN17&apos;, ip: &apos;192.168.112.128&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_65&apos;
+Driver info: driver.version: unknown</error>
+    <exception>org.openqa.selenium.UnsupportedCommandException:Unknown command received
+Command duration or timeout: 9 milliseconds
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 17:00:58&apos;
+System info: host: &apos;DESKTOP-274KN17&apos;, ip: &apos;192.168.112.128&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_65&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities [{acceptSslCerts=true, browserVersion=20.10240.16384.0, platformVersion=10, browserName=MicrosoftEdge, takesScreenshot=true, pageLoadStrategy=normal, takesElementScreenshot=true, platformName=windows, platform=ANY}]
+Session ID: 0181AEDA-1566-4A0A-A386-72FF763F04BD
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 17:00:58&apos;
+System info: host: &apos;DESKTOP-274KN17&apos;, ip: &apos;192.168.112.128&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_65&apos;
+Driver info: driver.version: unknown&#xd;
+[testserenitybdd.anhbt.StepDefBrowser.maximize_the_window(StepDefBrowser.java:87), ✽.And maximize the window(src/main/java/featurefiles/Browser.feature:8)]</exception>
+  </test-step>
+  <test-step result="SKIPPED" duration="2">
+    <description>And go backward one page</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="1">
+    <description>And go forward one page</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="0">
+    <description>And the page &quot;https://cucumber.io/&quot; is opened on another window</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="0">
+    <description>Then assert that the &quot;Describe behaviour in plain text&quot; text is present</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="0">
+    <description>And assert that the &quot;Write a step definition in Java&quot; text is not present</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="0">
+    <description>And assert that the page title is &quot;Cucumber&quot;</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="0">
+    <description>And assert that the page title is not &quot;Serenity BDD&quot;</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="1">
+    <description>And assert that the page title has &quot;Cu&quot;</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="0">
+    <description>And assert that the page title does not have &quot;Cucun&quot;</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="1">
+    <description>And assert that the url is &quot;https://cucumber.io/&quot;</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="0">
+    <description>And assert that the url is not &quot;https://cucumber.com/&quot;</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="2">
+    <description>When window dimension is changed with size (300,500)</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="1">
+    <description>And scroll up or down in screen with value (0,1000)</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="2">
+    <description>And window is moved to location with coordinates (200,300) one</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="1">
+    <description>And close current window one</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="15">
+    <description>And switch back to the original window one</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="1">
+    <description>And open &quot;link=TV&quot; link in new window and switch to it</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="1">
+    <description>And close current window two</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="1">
+    <description>And switch back to the original window two</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="2">
+    <description>And open &quot;css=img[alt=&apos;Additional Options&apos;]&quot; dialog and switch to it</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="2">
+    <description>And window is moved to location with coordinates (150,200) two</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="1">
+    <description>And maximize the window one</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="1">
+    <description>And close current window three</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="1">
+    <description>And switch back to the original window three</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="0">
+    <description>And window dimension is changed with size (300,500) one</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="0">
+    <description>And window is moved to location with coordinates (100,200) three</description>
+  </test-step>
+</acceptance-test-run>

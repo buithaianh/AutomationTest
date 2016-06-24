@@ -1,0 +1,21 @@
+<acceptance-test-run title="Element text in English" name="Element text in English" description="" steps="5" successful="5" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="16832" timestamp="2016-06-23T19:57:02.106-07:00">
+  <user-story id="general-steps" name="General Steps" path="src/main/java/featurefiles/ElementText.feature"/>
+  <tags>
+    <tag name="General Steps" type="feature"/>
+  </tags>
+  <test-step result="SUCCESS" duration="16461">
+    <description>Given the page &quot;https://cucumber.io/&quot; is visited first of all</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="35">
+    <description>Then assert that the text &quot;css=h1[title=&apos;Cucumber&apos;]&quot; element is the text &quot;Simple, human collaboration&quot;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="21">
+    <description>And assert that the text &quot;css=h1[title=&apos;Cucumber&apos;]&quot; element is not &quot;human collaboration&quot;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="20">
+    <description>And assert that the text &quot;css=h1[title=&apos;Cucumber&apos;]&quot; element has &quot;collaboration&quot;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="15">
+    <description>And assert that the text &quot;css=h1[title=&apos;Cucumber&apos;]&quot; element does not have &quot;Simples&quot;</description>
+  </test-step>
+</acceptance-test-run>

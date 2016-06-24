@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="General Steps" skipped="0" tests="1" time="8.0" timestamp="2016-06-175 07:52:28"><testcase name="Element attribute in English"><error message="ၐށՉtor not implemented (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 56 milliseconds&#10;Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'&#10;System info: host: 'DESKTOP-274KN17', ip: '192.168.112.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Capabilities [{acceptSslCerts=true, browserVersion=20.10240.16384.0, platformVersion=10, browserName=MicrosoftEdge, takesScreenshot=true, pageLoadStrategy=normal, takesElementScreenshot=true, platformName=windows, platform=ANY}]&#10;Session ID: 4BB78BE1-23F4-46BB-9186-465D2286306D&#10;*** Element info: {Using=xpath, value=//div[2]/a/img}&#10;Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'&#10;System info: host: 'DESKTOP-274KN17', ip: '192.168.112.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.WebDriverException">ၐށՉtor not implemented (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 56 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-274KN17', ip: '192.168.112.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities [{acceptSslCerts=true, browserVersion=20.10240.16384.0, platformVersion=10, browserName=MicrosoftEdge, takesScreenshot=true, pageLoadStrategy=normal, takesElementScreenshot=true, platformName=windows, platform=ANY}]
+Session ID: 4BB78BE1-23F4-46BB-9186-465D2286306D
+*** Element info: {Using=xpath, value=//div[2]/a/img}
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-274KN17', ip: '192.168.112.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'
+Driver info: driver.version: unknown</error><system-err>ၐށՉtor not implemented (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 56 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-274KN17', ip: '192.168.112.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities [{acceptSslCerts=true, browserVersion=20.10240.16384.0, platformVersion=10, browserName=MicrosoftEdge, takesScreenshot=true, pageLoadStrategy=normal, takesElementScreenshot=true, platformName=windows, platform=ANY}]
+Session ID: 4BB78BE1-23F4-46BB-9186-465D2286306D
+*** Element info: {Using=xpath, value=//div[2]/a/img}
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-274KN17', ip: '192.168.112.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'
+Driver info: driver.version: unknown&#13;
+testserenitybdd.anhbt.StepDefAttribute.assert_that_the_attribute_of_is_text(StepDefAttribute.java:71)&#13;
+✽.Then assert that the "alt" attribute of "xpath=//div[2]/a/img" is "Additional Options" text(src/main/java/featurefiles/Attribute.feature:5)&#13;
+</system-err></testcase></testsuite>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Window" skipped="0" tests="1" time="35.7" timestamp="2016-06-175 07:54:27"><testcase name="Demo in English version"><error message="Unknown command received&#10;Command duration or timeout: 9 milliseconds&#10;Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'&#10;System info: host: 'DESKTOP-274KN17', ip: '192.168.112.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Capabilities [{acceptSslCerts=true, browserVersion=20.10240.16384.0, platformVersion=10, browserName=MicrosoftEdge, takesScreenshot=true, pageLoadStrategy=normal, takesElementScreenshot=true, platformName=windows, platform=ANY}]&#10;Session ID: 0181AEDA-1566-4A0A-A386-72FF763F04BD&#10;Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'&#10;System info: host: 'DESKTOP-274KN17', ip: '192.168.112.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.UnsupportedCommandException">Unknown command received
+Command duration or timeout: 9 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-274KN17', ip: '192.168.112.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities [{acceptSslCerts=true, browserVersion=20.10240.16384.0, platformVersion=10, browserName=MicrosoftEdge, takesScreenshot=true, pageLoadStrategy=normal, takesElementScreenshot=true, platformName=windows, platform=ANY}]
+Session ID: 0181AEDA-1566-4A0A-A386-72FF763F04BD
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-274KN17', ip: '192.168.112.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'
+Driver info: driver.version: unknown</error><system-err>Unknown command received
+Command duration or timeout: 9 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-274KN17', ip: '192.168.112.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities [{acceptSslCerts=true, browserVersion=20.10240.16384.0, platformVersion=10, browserName=MicrosoftEdge, takesScreenshot=true, pageLoadStrategy=normal, takesElementScreenshot=true, platformName=windows, platform=ANY}]
+Session ID: 0181AEDA-1566-4A0A-A386-72FF763F04BD
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-274KN17', ip: '192.168.112.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'
+Driver info: driver.version: unknown&#13;
+testserenitybdd.anhbt.StepDefBrowser.maximize_the_window(StepDefBrowser.java:87)&#13;
+✽.And maximize the window(src/main/java/featurefiles/Browser.feature:8)&#13;
+</system-err></testcase></testsuite>

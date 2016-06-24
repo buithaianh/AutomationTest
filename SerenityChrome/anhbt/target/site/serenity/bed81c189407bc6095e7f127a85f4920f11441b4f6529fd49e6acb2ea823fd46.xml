@@ -1,0 +1,57 @@
+<acceptance-test-run title="General and Frame steps in English" name="General and Frame steps in English" description="" steps="17" successful="17" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="22255" timestamp="2016-06-22T17:48:34.126+07:00">
+  <user-story id="frame" name="Frame" path="src/main/java/featurefiles/Frame.feature"/>
+  <tags>
+    <tag name="Frame" type="feature"/>
+  </tags>
+  <test-step result="SUCCESS" duration="7685">
+    <description>Given that the page &quot;http://www.w3schools.com/tags/tryit.asp?filename=tryhtml_input_disabled&quot; is visited</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="41">
+    <description>And we go inside the &quot;id=iframeResult&quot; frame</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="34">
+    <description>Then assert that the &quot;name=fname&quot; element is enabled</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="27">
+    <description>And assert that the &quot;name=lname&quot; element is disabled</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="34">
+    <description>And assert that the &quot;xpath=//input[@type=&apos;submit&apos;]&quot; element is present</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1">
+    <description>And assert that the &quot;xpath=//input[@type=&apos;password&apos;]&quot; element is absent</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="803">
+    <description>When the page following &quot;http://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_input_type_hidden&quot; is visited</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="33">
+    <description>And that go inside the &quot;id=iframeResult&quot; frame</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="31">
+    <description>Then we assert that the &quot;value&quot; attribute of &quot;name=country&quot; is &quot;Norway&quot;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="2342">
+    <description>And assert that the &quot;name=country&quot; element is hidden</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="6701">
+    <description>When change &quot;type&quot; attribute of &quot;name=country&quot; into &quot;display&quot;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="77">
+    <description>Then assert that the &quot;name=country&quot; element is visible</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="745">
+    <description>When we change &quot;value&quot; attribute of &quot;name=country&quot; into &quot;VIETNAM&quot;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="74">
+    <description>Then assert that this &quot;value&quot; attribute of &quot;name=country&quot; is &quot;VIETNAM&quot;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="3050">
+    <description>When highlight &quot;name=country&quot; element</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="20">
+    <description>And set bound for &quot;name=country&quot; element</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="357">
+    <description>And capture image of &quot;name=country&quot; element and save as &quot;norway.png&quot;</description>
+  </test-step>
+</acceptance-test-run>

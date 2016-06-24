@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Window" skipped="0" tests="1" time="72.23" timestamp="2016-06-174 06:20:48"><testcase name="Demo in English version"><failure message="Text is not present !" type="junit.framework.AssertionFailedError">Text is not present !</failure><system-err>Text is not present !&#13;
+junit.framework.Assert.fail(Assert.java:57)&#13;
+junit.framework.Assert.assertTrue(Assert.java:22)&#13;
+testserenitybdd.anhbt.StepDefBrowser.assert_that_the_text_is_present(StepDefBrowser.java:112)&#13;
+✽.Then assert that the "Describe behaviour in plain text" text is present(src/main/java/featurefiles/Browser.feature:12)&#13;
+</system-err></testcase></testsuite>

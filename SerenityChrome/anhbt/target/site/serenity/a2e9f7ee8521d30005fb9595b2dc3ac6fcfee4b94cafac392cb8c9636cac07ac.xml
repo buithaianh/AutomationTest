@@ -1,0 +1,100 @@
+<acceptance-test-run title="Demo in English version" name="Demo in English version" description="" steps="30" successful="7" failures="1" skipped="22" ignored="0" pending="0" annotated-result="FAILURE" result="FAILURE" duration="72232" timestamp="2016-06-22T18:20:48.063+07:00">
+  <user-story id="window" name="Window" path="src/main/java/featurefiles/Browser.feature"/>
+  <tags>
+    <tag name="Window" type="feature"/>
+    <tag name="browser" type="tag"/>
+  </tags>
+  <test-step result="SUCCESS" duration="11593">
+    <description>Given the home page is visited</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="18396">
+    <description>And the page &quot;http://live.guru99.com/&quot; is visited one</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="6151">
+    <description>And the page is refreshed</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1159">
+    <description>And maximize the window</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="381">
+    <description>And go backward one page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1551">
+    <description>And go forward one page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="32521">
+    <description>And the page &quot;https://cucumber.io/&quot; is opened on another window</description>
+  </test-step>
+  <test-step result="FAILURE" duration="189">
+    <description>Then assert that the &quot;Describe behaviour in plain text&quot; text is present</description>
+    <error>junit.framework.AssertionFailedError: Text is not present !</error>
+    <exception>junit.framework.AssertionFailedError:Text is not present !&#xd;
+[junit.framework.Assert.fail(Assert.java:57), junit.framework.Assert.assertTrue(Assert.java:22), testserenitybdd.anhbt.StepDefBrowser.assert_that_the_text_is_present(StepDefBrowser.java:112), ✽.Then assert that the &quot;Describe behaviour in plain text&quot; text is present(src/main/java/featurefiles/Browser.feature:12)]</exception>
+  </test-step>
+  <test-step result="SKIPPED" duration="10">
+    <description>And assert that the &quot;Write a step definition in Java&quot; text is not present</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="0">
+    <description>And assert that the page title is &quot;Cucumber&quot;</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="0">
+    <description>And assert that the page title is not &quot;Serenity BDD&quot;</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="0">
+    <description>And assert that the page title has &quot;Cu&quot;</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="0">
+    <description>And assert that the page title does not have &quot;Cucun&quot;</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="0">
+    <description>And assert that the url is &quot;https://cucumber.io/&quot;</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="0">
+    <description>And assert that the url is not &quot;https://cucumber.com/&quot;</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="1">
+    <description>When window dimension is changed with size (300,500)</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="0">
+    <description>And scroll up or down in screen with value (0,1000)</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="0">
+    <description>And window is moved to location with coordinates (200,300) one</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="0">
+    <description>And close current window one</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="0">
+    <description>And switch back to the original window one</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="0">
+    <description>And open &quot;link=TV&quot; link in new window and switch to it</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="0">
+    <description>And close current window two</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="0">
+    <description>And switch back to the original window two</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="1">
+    <description>And open &quot;css=img[alt=&apos;Additional Options&apos;]&quot; dialog and switch to it</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="0">
+    <description>And window is moved to location with coordinates (150,200) two</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="1">
+    <description>And maximize the window one</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="0">
+    <description>And close current window three</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="1">
+    <description>And switch back to the original window three</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="0">
+    <description>And window dimension is changed with size (300,500) one</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="0">
+    <description>And window is moved to location with coordinates (100,200) three</description>
+  </test-step>
+</acceptance-test-run>

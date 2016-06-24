@@ -1,0 +1,50 @@
+<acceptance-test-run title="Element attribute in English" name="Element attribute in English" description="" steps="7" successful="1" failures="0" errors="1" skipped="5" ignored="0" pending="0" annotated-result="ERROR" result="ERROR" duration="7997" timestamp="2016-06-23T19:52:28.260-07:00">
+  <user-story id="general-steps" name="General Steps" path="src/main/java/featurefiles/Attribute.feature"/>
+  <tags>
+    <tag name="General Steps" type="feature"/>
+  </tags>
+  <test-step result="SUCCESS" duration="7554">
+    <description>Given the page &quot;http://live.guru99.com/&quot; is visited first</description>
+  </test-step>
+  <test-step result="ERROR" duration="144">
+    <description>Then assert that the &quot;alt&quot; attribute of &quot;xpath=//div[2]/a/img&quot; is &quot;Additional Options&quot; text</description>
+    <error>org.openqa.selenium.WebDriverException: ၐށՉtor not implemented (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 56 milliseconds
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 17:00:58&apos;
+System info: host: &apos;DESKTOP-274KN17&apos;, ip: &apos;192.168.112.128&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_65&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities [{acceptSslCerts=true, browserVersion=20.10240.16384.0, platformVersion=10, browserName=MicrosoftEdge, takesScreenshot=true, pageLoadStrategy=normal, takesElementScreenshot=true, platformName=windows, platform=ANY}]
+Session ID: 4BB78BE1-23F4-46BB-9186-465D2286306D
+*** Element info: {Using=xpath, value=//div[2]/a/img}
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 17:00:58&apos;
+System info: host: &apos;DESKTOP-274KN17&apos;, ip: &apos;192.168.112.128&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_65&apos;
+Driver info: driver.version: unknown</error>
+    <exception>org.openqa.selenium.WebDriverException:ၐށՉtor not implemented (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 56 milliseconds
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 17:00:58&apos;
+System info: host: &apos;DESKTOP-274KN17&apos;, ip: &apos;192.168.112.128&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_65&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities [{acceptSslCerts=true, browserVersion=20.10240.16384.0, platformVersion=10, browserName=MicrosoftEdge, takesScreenshot=true, pageLoadStrategy=normal, takesElementScreenshot=true, platformName=windows, platform=ANY}]
+Session ID: 4BB78BE1-23F4-46BB-9186-465D2286306D
+*** Element info: {Using=xpath, value=//div[2]/a/img}
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 17:00:58&apos;
+System info: host: &apos;DESKTOP-274KN17&apos;, ip: &apos;192.168.112.128&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_65&apos;
+Driver info: driver.version: unknown&#xd;
+[testserenitybdd.anhbt.StepDefAttribute.assert_that_the_attribute_of_is_text(StepDefAttribute.java:71), ✽.Then assert that the &quot;alt&quot; attribute of &quot;xpath=//div[2]/a/img&quot; is &quot;Additional Options&quot; text(src/main/java/featurefiles/Attribute.feature:5)]</exception>
+  </test-step>
+  <test-step result="SKIPPED" duration="9">
+    <description>Then assert that the &quot;title&quot; attribute of &quot;xpath=//div[2]/a/img&quot; is &quot;Additional Options&quot; string</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="0">
+    <description>Then assert that the &quot;src&quot; attribute of &quot;xpath=//div[2]/a/img&quot; is &quot;https://www.paypalobjects.com/en_US/i/bnr/bnr_nowAccepting_150x60.gif&quot;</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="1">
+    <description>Then assert that the &quot;src&quot; attribute of &quot;xpath=//div[2]/a/img&quot; has &quot;bnr_nowAccepting_150x60.gif&quot;</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="0">
+    <description>Then assert that the &quot;src&quot; attribute of &quot;xpath=//div[2]/a/img&quot; does not have &quot;bnr_nowAccepting.gif&quot;</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="2">
+    <description>Then assert that the &quot;src&quot; attribute of &quot;xpath=//div[2]/a/img&quot; is not &quot;https://www.paypalobjects.com&quot;</description>
+  </test-step>
+</acceptance-test-run>
